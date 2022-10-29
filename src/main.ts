@@ -93,7 +93,7 @@ class bufferDetect {
     return count;
   }
 
-  async detect(buffer: Buffer | Uint8Array) {
+  detect(buffer: Buffer | Uint8Array) {
     const bom = buffer.slice(0, 4); // [0,4)
     const encoding = this.AutoEncoding(bom);
     this.encoding = encoding;
