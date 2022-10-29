@@ -9,6 +9,10 @@
       "import": "./dist/buffer-detect.mjs"
     }
   },
+  "homepage": "https://github.com/liulinboyi/buffer-detect",
+  "bugs": {
+    "url": "https://github.com/liulinboyi/buffer-detect/issues"
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
