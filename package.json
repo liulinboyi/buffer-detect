@@ -1,6 +1,6 @@
 {
   "name": "buffer-detect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/buffer-detect.cjs",
   "module": "./dist/buffer-detect.mjs",
   "exports": {
