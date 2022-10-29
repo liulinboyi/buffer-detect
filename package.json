@@ -1,6 +1,6 @@
 {
   "name": "buffer-detect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/buffer-detect.cjs",
   "module": "./dist/buffer-detect.mjs",
   "exports": {
@@ -13,6 +13,11 @@
   "bugs": {
     "url": "https://github.com/liulinboyi/buffer-detect/issues"
   },
+  "keywords": [
+    "charset",
+    "utf8",
+    "gbk"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
