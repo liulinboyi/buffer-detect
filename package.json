@@ -1,6 +1,6 @@
 {
   "name": "buffer-detect",
-  "version": "0.0.3-beta.1",
+  "version": "0.0.3-beta.2",
   "main": "./dist/buffer-detect.cjs",
   "module": "./dist/buffer-detect.mjs",
   "exports": {
@@ -19,6 +19,7 @@
     "gbk"
   ],
   "license": "MIT",
+  "types": "dist/buffer-detect.d.ts",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
